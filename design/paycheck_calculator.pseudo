@@ -10,15 +10,19 @@
 
 START paycheck_calculator
 
-    TODO: Obtain the required program input.
+    Get hours_worked
 
-    IF TODO: Specify the condition for the applicable pay rule.
-        TODO: List the processing steps for the true decision path.
-    ELSE
-        TODO: List the processing steps for the false decision path.
-    ENDIF
+If hours_worked > 40
+    Let regular_pay = 40* 20
+    Let overtime_hours = hours_worked - 40
+    Let overtime_pay = overtime_hours * 30
+    Let weekly_paycheck = regular_pay + overtime_pay
+Else
+    Let weekly_paycheck = hours_worked * 20
+ENDIF
 
-    TODO: Output the calculated weekly paycheck.
+PUT weekly_paycheck
+
 
 END paycheck_calculator
 
