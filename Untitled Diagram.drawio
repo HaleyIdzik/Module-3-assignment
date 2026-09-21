@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="fTRinB6T0PZ3LPzwCSMx">
+    <mxGraphModel dx="764" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TNKImzxzl4L5xBwisFwx-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Start=" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="200" />
+            </Array>
+            <mxPoint x="180" y="140" as="sourcePoint" />
+            <mxPoint x="180" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="input hours worked" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-4" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Are Hours &amp;gt; 40?" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Yes">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="460" />
+            </Array>
+            <mxPoint x="120" y="490" as="sourcePoint" />
+            <mxPoint x="100" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="No">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="460" as="sourcePoint" />
+            <mxPoint x="240" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-7" parent="1" style="swimlane;startSize=0;" value="Regular pay = 40 * 20&#xa;&#xa;Overtime hours = hours -x 40&#xa;&#xa;Overtime pay = overtime x 30&#xa;&#xa;Pay = regular + overtime pay&#xa;" vertex="1">
+          <mxGeometry height="150" width="160" x="10" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" value="Pay = hours x 20" vertex="1">
+          <mxGeometry height="80" width="130" x="230" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="610" as="sourcePoint" />
+            <mxPoint x="300" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="840" as="sourcePoint" />
+            <mxPoint x="80" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="840" as="sourcePoint" />
+            <mxPoint x="80" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="840" as="sourcePoint" />
+            <mxPoint x="200" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Output pay" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="1000" as="sourcePoint" />
+            <mxPoint x="200" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNKImzxzl4L5xBwisFwx-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="1030" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
